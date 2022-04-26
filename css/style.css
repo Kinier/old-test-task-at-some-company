@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: wheat;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-dropdowns{
+    margin-bottom: 10px;
+}
+.wrapper-souce{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-size{
+    display: flex;
+    justify-content: center;
+}
+.wrapper-type{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-order{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-check{
+    display: none;
+    justify-content: center;
+
+    margin: 10px;
+    border: double wheat;
+
+    height: fit-content;
+
+}
+
+.pizza-info{
+    display: flex;
+    margin: 10px;
+}
+
+.pizza-btn{
+    width: fit-content;
+    height: 50px;
+}
